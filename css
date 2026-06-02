@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url('https://picsum.photos/1600/900');
+    background-size:cover;
+    background-position:center;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+}
+
+.logo{
+    color:#ffcc00;
+    font-size:30px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    color:#ffcc00;
+}
+
+.hero{
+    text-align:center;
+    margin-top:180px;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    font-size:22px;
+    margin:15px 0;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#ffcc00;
+    color:black;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.services{
+    padding:70px 50px;
+    text-align:center;
+}
+
+.services h2{
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.service-box{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#222;
+    padding:30px;
+    width:280px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    background:#333;
+}
+
+.gallery{
+    padding:70px 50px;
+    text-align:center;
+}
+
+.gallery-box{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.gallery img{
+    width:300px;
+    border-radius:10px;
+}
+
+.contact{
+    padding:60px;
+    text-align:center;
+    background:#1a1a1a;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:black;
+}
